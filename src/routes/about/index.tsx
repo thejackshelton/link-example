@@ -4,17 +4,17 @@ import { Link, type DocumentHead } from "@builder.io/qwik-city";
 export default component$(() => {
   return (
     <>
-      <p>travel to new route</p>
-      <Link href="/about">About</Link>
+      <p>travel back home</p>
+      <Link href="/">Home</Link>
       <div>
-        <a href="/about">Not LINK</a>
+        <a href="/">Not LINK</a>
       </div>
     </>
   );
 });
 
 export const head: DocumentHead = {
-  title: "Welcome to Qwik",
+  title: "About",
   meta: [
     {
       name: "description",
